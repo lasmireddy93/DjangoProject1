@@ -8,7 +8,15 @@ def navbar(request):
     return render(request,'navbar.html')
 
 
+def test(request):
+    return render(request,'test.html')
+    
 
+def test2(request):
+    return render(request,'test2.html')
+    
+def test3(request):
+    return render(request,'test3.html')
 
 
 def design2(request):
